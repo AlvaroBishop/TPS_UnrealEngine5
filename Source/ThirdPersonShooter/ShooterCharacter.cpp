@@ -43,8 +43,10 @@ void AShooterCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCo
 
 void AShooterCharacter::MoveForward(float AxisValue)
 {
-	UE_LOG(LogTemp, Display, TEXT("Move Forward2: %f"), AxisValue);
-	AddMovementInput(GetActorForwardVector() * AxisValue);
+	
+	AddMovementInput(GetActorForwardVector() * AxisValue );
+
+	
 }
 
 void AShooterCharacter::MoveRight(float AxisValue)
@@ -62,6 +64,8 @@ void AShooterCharacter::LookRightRate(float AxisValue)
 {
 	AddControllerYawInput(AxisValue * RotationRate * GetWorld()->GetDeltaSeconds());
 }
+
+
 
 
 
