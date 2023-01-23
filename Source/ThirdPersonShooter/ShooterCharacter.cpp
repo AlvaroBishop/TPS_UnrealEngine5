@@ -3,6 +3,7 @@
 
 #include "ShooterCharacter.h"
 
+#include "Gun.h"
 #include "Math/UnitConversion.h"
 
 // Sets default values
@@ -17,7 +18,13 @@ AShooterCharacter::AShooterCharacter()
 void AShooterCharacter::BeginPlay()
 {
 	Super::BeginPlay();
-	
+
+	Gun = GetWorld()->SpawnActor<AGun>(GunClass); // Spawn actor
+	GetMesh()-> HideBoneByName(TEXT("weapon_r"), EPhysBodyOp::PBO_None); // we hide the weapon in the sekeleton
+	// We attach the component to the weapon socket
+	Gun->AttachToComponent(GetMesh(),FAttachmentTransformRules ::KeepRelativeTransform, TEXT("WeaponSocket"));
+	// allows the gun to know what is the owning character
+	Gun->SetOwner(this);
 }
 
 // Called every frame

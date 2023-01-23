@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "Gun.h"
 #include "GameFramework/Character.h"
 #include "ShooterCharacter.generated.h"
 
@@ -36,4 +37,10 @@ private:
 
 	UPROPERTY(EditAnywhere)
 	float RotationRate = 10;
+
+	UPROPERTY(EditDefaultsOnly, Category="Gun")
+	TSubclassOf<AGun> GunClass; // Restrict the classes that we can select
+
+	UPROPERTY()
+	AGun* Gun;
 };

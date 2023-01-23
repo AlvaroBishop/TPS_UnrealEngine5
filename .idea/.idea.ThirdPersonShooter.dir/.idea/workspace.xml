@@ -6,11 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="f09001fe-2bbf-4c6c-b32f-7b3adcefa7bc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ThirdPersonShooter.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ThirdPersonShooter.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/DefaultInput.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultInput.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BS_Locomotion.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BS_Locomotion.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/BP_ShooterCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP_ShooterCharacter.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/ThirdPersonShooter/ShooterCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ThirdPersonShooter/ShooterCharacter.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/ThirdPersonShooter/ShooterCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ThirdPersonShooter/ShooterCharacter.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThirdPersonShooter.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/ThirdPersonShooter.uproject" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,6 +151,7 @@
       <workItem from="1673848881233" duration="694000" />
       <workItem from="1673989401558" duration="1404000" />
       <workItem from="1674481458091" duration="3444000" />
+      <workItem from="1674487486213" duration="4093000" />
     </task>
     <servers />
   </component>
