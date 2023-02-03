@@ -31,7 +31,7 @@ private:
 	void MoveRight(float AxisValue);
 	void LookUpRate(float AxisValue);
 	void LookRightRate(float AxisValue);
-
+	void Shoot();
 	void Run();
 	bool bShiftPressed = false;
 
